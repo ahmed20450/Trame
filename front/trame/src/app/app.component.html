@@ -1,0 +1,58 @@
+<form (ngSubmit)="sendTrame()" class="container">
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>Action:</td>
+        <td><input type="text" name="action" [(ngModel)]="trame.action" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Num Chambre:</td>
+        <td><input type="text" name="numchambre" [(ngModel)]="trame.numchambre" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Cod Resid:</td>
+        <td><input type="text" name="cod_resid" [(ngModel)]="trame.cod_resid" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Nom Resid:</td>
+        <td><input type="text" name="nom_resid" [(ngModel)]="trame.nom_resid" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Date Arrive:</td>
+        <td><input type="text" name="date_arrive" [(ngModel)]="trame.date_arrive" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Date Depart:</td>
+        <td><input type="text" name="date_depart" [(ngModel)]="trame.date_depart" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Code User:</td>
+        <td><input type="text" name="code_user" [(ngModel)]="trame.code_user" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Nom User:</td>
+        <td><input type="text" name="nom_user" [(ngModel)]="trame.nom_user" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Type:</td>
+        <td><input type="text" name="type" [(ngModel)]="trame.type" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>AsiCard:</td>
+        <td><input type="text" name="AsiCard" [(ngModel)]="trame.AsiCard" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Serv:</td>
+        <td><input type="text" name="serv" [(ngModel)]="trame.serv" class="form-control"></td>
+      </tr>
+      <tr>
+        <td>Path:</td>
+        <td><input type="text" name="Path" [(ngModel)]="trame.Path" class="form-control"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="submit" class="btn btn-primary">Envoyer la Trame</button></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
